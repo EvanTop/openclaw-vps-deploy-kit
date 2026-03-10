@@ -38,7 +38,7 @@ ssh ubuntu@你的服务器IP
 > 脚本包含：依赖安装（curl/git）、Node 版本检查（>=22）、调用官方安装器、onboard + 基础健康检查。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/EvanTop/openclaw-vps-deploy-kit/main/scripts/openclaw-vps-quick-install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/openclaw-vps-deploy-kit/main/scripts/openclaw-vps-quick-install.sh | bash
 ```
 
 ⚠️ **使用前请把 `<YOUR_GITHUB_USERNAME>` 替换成你的 GitHub 用户名**。
